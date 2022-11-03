@@ -13,6 +13,7 @@ export class Plant {
     this.nombre_cientifico = nombre_cientifico;
     this.tipo = tipo;
     this.altura_maxima = altura_maxima;
+    this.clima = clima;
     this.sustrato_siembra = sustrato_siembra;
 
   }

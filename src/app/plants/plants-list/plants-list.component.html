@@ -1,7 +1,9 @@
 <div class="container-fluid">
   <div class="header clearfix">
     <h3 class="text-muted header">Vivero El Otoño</h3>
+    <hr/>
   </div>
+  <br>
   <img src="https://i.ibb.co/85MsM4Q/image-1.png" height="323" width="100%">
   <table class="table" style="">
     <thead>
@@ -17,10 +19,17 @@
         <td style="padding-left: 10px;"><b>{{plant.id}}</b></td>
         <td>{{plant.nombre_comun}}</td>
         <td>{{plant.tipo}}</td>
-        <td>{{plant.altura_maxima}}</td>
+        <td>{{plant.clima}}</td>
       </tr>
     </tbody>
   </table>
+  <p class="">
+    Total plantas de interior: {{interiorCount}}
+    <br>
+    Total plantas de exterior: {{exteriorCount}}
+  </p>
+  <br>
   <footer class="footer">
     <p style="text-align: center;">Contact us: +57 3102105253 - info@viveroelotonio.com - @viveroelotonio</p>
   </footer>
+  <br>

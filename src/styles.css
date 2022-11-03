@@ -9,6 +9,12 @@ html {
   font-family: 'Kaisei Decol', serif;
   font-size: 36px;
 }
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
 table {
   width: 800px;
   border-collapse: collapse;
