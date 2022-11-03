@@ -5,7 +5,7 @@
   </div>
   <br>
   <img src="https://i.ibb.co/85MsM4Q/image-1.png" height="323" width="100%">
-  <table class="table" style="">
+  <table class="table">
     <thead>
       <tr>
         <th width="10%" style="padding-left: 10px;">#</th>
@@ -15,8 +15,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let plant of plantsList">
-        <td style="padding-left: 10px;"><b>{{plant.id}}</b></td>
+      <tr class="ngTestRow" *ngFor="let plant of plantsList">
+        <td style="padding-left: 10px;"><b class="a">{{plant.id}}</b></td>
         <td>{{plant.nombre_comun}}</td>
         <td>{{plant.tipo}}</td>
         <td>{{plant.clima}}</td>
