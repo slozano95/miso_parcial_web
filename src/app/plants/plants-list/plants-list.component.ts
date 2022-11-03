@@ -12,12 +12,13 @@ export class PlantsListComponent implements OnInit {
   constructor(private plantsService: PlantsService) { }
   plantsList: Array<Plant> = [];
 
-  getMuseums() : void {
+  getPlants() : void {
       this.plantsService.getAllPlants().subscribe((data) => {
         this.plantsList = data;
       });
   }
   ngOnInit() {
+    this.getPlants();
   }
 
 }

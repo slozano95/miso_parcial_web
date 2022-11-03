@@ -2,11 +2,12 @@ export class Plant {
   id: number;
   nombre_comun: string;
   nombre_cientifico: string;
-  tipo: number;
-  altura_maxima: string;
+  tipo: string;
+  altura_maxima: number;
+  clima: string;
   sustrato_siembra: string;
 
-  constructor(id: number, nombre_comun: string, nombre_cientifico: string, tipo: number, altura_maxima: string, sustrato_siembra: string) {
+  constructor(id: number, nombre_comun: string, nombre_cientifico: string, tipo: string, clima: string, altura_maxima: number, sustrato_siembra: string) {
     this.id = id;
     this.nombre_comun = nombre_comun;
     this.nombre_cientifico = nombre_cientifico;
